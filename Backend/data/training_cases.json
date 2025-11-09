@@ -1,0 +1,20 @@
+[
+  {
+    "plaintiff": "The defendant failed to deliver the goods after payment was made.",
+    "defendant": "The delivery was delayed due to heavy rain and floods.",
+    "evidence": "Invoice and payment receipt attached.",
+    "winner": "Plaintiff"
+  },
+  {
+    "plaintiff": "The customer refused to pay for services rendered.",
+    "defendant": "The services were incomplete and unsatisfactory.",
+    "evidence": "Service agreement and messages attached.",
+    "winner": "Defendant"
+  },
+  {
+    "plaintiff": "The landlord did not return the security deposit.",
+    "defendant": "The tenant damaged property and broke items.",
+    "evidence": "Inspection report attached.",
+    "winner": "Neutral"
+  }
+]

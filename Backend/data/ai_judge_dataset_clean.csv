@@ -1,0 +1,151 @@
+case_id,plaintiff,defendant,evidence,plaintiff_evidence,defendant_evidence,plaintiff_witness,defendant_witness,plaintiff_record,defendant_record,plaintiff_expert_support,defendant_expert_support,plaintiff_score,defendant_score,verdict
+1,The author alleges plagiarism by another writer.,The accused writer denies copying any material.,Manuscript drafts and publication timestamps.,0,1,0,0,0,0,0,1,0,2,Defendant
+2,The homeowner sues the builder for structural defects.,The builder argues the damage was caused by natural calamities.,Building contract and damage photos.,1,0,0,0,1,1,0,1,0,0,Neutral
+3,The patient accuses the doctor of negligence during surgery.,The doctor claims all procedures were followed correctly.,Medical report and hospital records.,0,0,0,0,1,1,0,0,-1,-1,Neutral
+4,The customer alleges overcharging by the restaurant.,The restaurant says service charges were clearly mentioned.,Bill receipt and menu card.,1,0,0,0,0,1,1,1,2,0,Plaintiff
+5,The customer alleges overcharging by the restaurant.,The restaurant says service charges were clearly mentioned.,Bill receipt and menu card.,0,1,1,1,0,0,0,0,1,2,Defendant
+6,The student accuses the teacher of unfair grading.,The teacher insists grades were based on merit.,Exam scripts and grading policy.,0,1,1,0,1,1,0,1,0,1,Defendant
+7,The worker was not paid overtime for extra hours.,The company says overtime was compensated with leave.,Salary slips and attendance sheet.,0,1,0,1,0,0,1,0,1,2,Defendant
+8,The customer alleges overcharging by the restaurant.,The restaurant says service charges were clearly mentioned.,Bill receipt and menu card.,1,1,0,0,0,0,0,1,1,2,Defendant
+9,The worker was not paid overtime for extra hours.,The company says overtime was compensated with leave.,Salary slips and attendance sheet.,0,0,0,0,1,1,1,1,0,0,Neutral
+10,The employee claims wrongful termination.,The company states the firing was due to poor performance.,Termination letter and performance reviews.,0,1,1,0,1,1,0,0,0,0,Neutral
+11,The worker was not paid overtime for extra hours.,The company says overtime was compensated with leave.,Salary slips and attendance sheet.,0,1,1,0,0,0,0,1,1,2,Defendant
+12,The employee claims wrongful termination.,The company states the firing was due to poor performance.,Termination letter and performance reviews.,0,1,1,0,0,1,0,1,1,1,Neutral
+13,The buyer complains the product was defective.,The seller claims the buyer misused it.,Purchase receipt and defect report.,0,0,0,1,0,1,1,0,1,0,Plaintiff
+14,The homeowner sues the builder for structural defects.,The builder argues the damage was caused by natural calamities.,Building contract and damage photos.,0,1,0,1,0,1,1,0,1,1,Neutral
+15,The student accuses the teacher of unfair grading.,The teacher insists grades were based on merit.,Exam scripts and grading policy.,0,1,1,0,1,0,0,0,0,1,Defendant
+16,The homeowner sues the builder for structural defects.,The builder argues the damage was caused by natural calamities.,Building contract and damage photos.,1,0,1,1,0,0,1,1,3,2,Plaintiff
+17,The student accuses the teacher of unfair grading.,The teacher insists grades were based on merit.,Exam scripts and grading policy.,1,0,1,1,1,1,1,0,2,0,Plaintiff
+18,The employee claims wrongful termination.,The company states the firing was due to poor performance.,Termination letter and performance reviews.,0,1,0,0,1,1,1,1,0,1,Defendant
+19,The driver claims the accident was caused by poor road conditions.,"The municipality denies responsibility, citing driver negligence.",Accident report and road maintenance log.,0,0,0,1,1,0,0,1,-1,2,Defendant
+20,The customer alleges overcharging by the restaurant.,The restaurant says service charges were clearly mentioned.,Bill receipt and menu card.,0,0,0,0,1,1,1,1,0,0,Neutral
+21,The buyer complains the product was defective.,The seller claims the buyer misused it.,Purchase receipt and defect report.,0,0,0,0,1,1,1,0,0,-1,Plaintiff
+22,The patient accuses the doctor of negligence during surgery.,The doctor claims all procedures were followed correctly.,Medical report and hospital records.,0,0,1,0,0,0,1,1,2,1,Plaintiff
+23,The author alleges plagiarism by another writer.,The accused writer denies copying any material.,Manuscript drafts and publication timestamps.,1,0,1,1,1,0,0,1,1,2,Defendant
+24,The tenant claims the landlord failed to return the deposit.,The landlord argues the deposit was used for damages.,Lease agreement and damage photos.,0,0,0,1,0,0,0,0,0,1,Defendant
+25,The worker was not paid overtime for extra hours.,The company says overtime was compensated with leave.,Salary slips and attendance sheet.,1,0,1,0,1,1,1,1,2,0,Plaintiff
+26,The worker was not paid overtime for extra hours.,The company says overtime was compensated with leave.,Salary slips and attendance sheet.,1,0,0,0,0,1,0,1,1,0,Plaintiff
+27,The customer alleges overcharging by the restaurant.,The restaurant says service charges were clearly mentioned.,Bill receipt and menu card.,1,1,0,0,1,0,1,0,1,1,Neutral
+28,The worker was not paid overtime for extra hours.,The company says overtime was compensated with leave.,Salary slips and attendance sheet.,1,0,0,1,0,1,1,0,2,0,Plaintiff
+29,The worker was not paid overtime for extra hours.,The company says overtime was compensated with leave.,Salary slips and attendance sheet.,0,0,1,1,0,0,1,0,2,1,Plaintiff
+30,The driver claims the accident was caused by poor road conditions.,"The municipality denies responsibility, citing driver negligence.",Accident report and road maintenance log.,1,1,0,1,0,0,0,1,1,3,Defendant
+31,The patient accuses the doctor of negligence during surgery.,The doctor claims all procedures were followed correctly.,Medical report and hospital records.,0,1,1,0,1,0,1,0,1,1,Neutral
+32,The tenant claims the landlord failed to return the deposit.,The landlord argues the deposit was used for damages.,Lease agreement and damage photos.,1,0,0,0,1,1,1,0,1,-1,Plaintiff
+33,The student accuses the teacher of unfair grading.,The teacher insists grades were based on merit.,Exam scripts and grading policy.,0,0,1,1,1,0,0,1,0,2,Defendant
+34,The customer alleges overcharging by the restaurant.,The restaurant says service charges were clearly mentioned.,Bill receipt and menu card.,0,0,0,0,1,1,0,0,-1,-1,Neutral
+35,The customer alleges overcharging by the restaurant.,The restaurant says service charges were clearly mentioned.,Bill receipt and menu card.,0,1,1,1,0,1,0,0,1,1,Neutral
+36,The worker was not paid overtime for extra hours.,The company says overtime was compensated with leave.,Salary slips and attendance sheet.,0,0,0,0,0,1,1,0,1,-1,Plaintiff
+37,The student accuses the teacher of unfair grading.,The teacher insists grades were based on merit.,Exam scripts and grading policy.,0,1,1,1,0,0,1,0,2,2,Neutral
+38,The driver claims the accident was caused by poor road conditions.,"The municipality denies responsibility, citing driver negligence.",Accident report and road maintenance log.,1,1,0,0,0,1,1,1,2,1,Plaintiff
+39,The homeowner sues the builder for structural defects.,The builder argues the damage was caused by natural calamities.,Building contract and damage photos.,1,1,1,1,1,1,1,1,2,2,Neutral
+40,The customer alleges overcharging by the restaurant.,The restaurant says service charges were clearly mentioned.,Bill receipt and menu card.,1,1,1,0,0,1,1,1,3,1,Plaintiff
+41,The buyer complains the product was defective.,The seller claims the buyer misused it.,Purchase receipt and defect report.,1,0,1,1,1,0,1,0,2,1,Plaintiff
+42,The employee claims wrongful termination.,The company states the firing was due to poor performance.,Termination letter and performance reviews.,1,1,1,0,0,1,0,0,2,0,Plaintiff
+43,The buyer complains the product was defective.,The seller claims the buyer misused it.,Purchase receipt and defect report.,1,0,0,0,0,0,1,1,2,1,Plaintiff
+44,The buyer complains the product was defective.,The seller claims the buyer misused it.,Purchase receipt and defect report.,1,1,1,1,0,0,1,0,3,2,Plaintiff
+45,The buyer complains the product was defective.,The seller claims the buyer misused it.,Purchase receipt and defect report.,0,0,0,0,0,0,0,0,0,0,Neutral
+46,The patient accuses the doctor of negligence during surgery.,The doctor claims all procedures were followed correctly.,Medical report and hospital records.,1,0,0,1,1,1,0,0,0,0,Neutral
+47,The buyer complains the product was defective.,The seller claims the buyer misused it.,Purchase receipt and defect report.,1,0,0,1,0,0,0,1,1,2,Defendant
+48,The worker was not paid overtime for extra hours.,The company says overtime was compensated with leave.,Salary slips and attendance sheet.,0,1,0,1,0,0,0,0,0,2,Defendant
+49,The driver claims the accident was caused by poor road conditions.,"The municipality denies responsibility, citing driver negligence.",Accident report and road maintenance log.,0,0,0,0,0,1,0,0,0,-1,Plaintiff
+50,The homeowner sues the builder for structural defects.,The builder argues the damage was caused by natural calamities.,Building contract and damage photos.,1,1,1,0,1,0,0,1,1,2,Defendant
+51,The driver claims the accident was caused by poor road conditions.,"The municipality denies responsibility, citing driver negligence.",Accident report and road maintenance log.,0,1,0,0,1,0,1,0,0,1,Defendant
+52,The driver claims the accident was caused by poor road conditions.,"The municipality denies responsibility, citing driver negligence.",Accident report and road maintenance log.,0,1,1,0,1,1,1,1,1,1,Neutral
+53,The driver claims the accident was caused by poor road conditions.,"The municipality denies responsibility, citing driver negligence.",Accident report and road maintenance log.,1,0,0,0,0,0,0,0,1,0,Plaintiff
+54,The homeowner sues the builder for structural defects.,The builder argues the damage was caused by natural calamities.,Building contract and damage photos.,0,0,0,1,1,1,1,0,0,0,Neutral
+55,The author alleges plagiarism by another writer.,The accused writer denies copying any material.,Manuscript drafts and publication timestamps.,0,0,1,0,0,0,0,0,1,0,Plaintiff
+56,The author alleges plagiarism by another writer.,The accused writer denies copying any material.,Manuscript drafts and publication timestamps.,1,1,0,0,1,0,1,1,1,2,Defendant
+57,The driver claims the accident was caused by poor road conditions.,"The municipality denies responsibility, citing driver negligence.",Accident report and road maintenance log.,0,0,1,0,1,0,0,1,0,1,Defendant
+58,The customer alleges overcharging by the restaurant.,The restaurant says service charges were clearly mentioned.,Bill receipt and menu card.,1,0,0,1,0,0,0,1,1,2,Defendant
+59,The buyer complains the product was defective.,The seller claims the buyer misused it.,Purchase receipt and defect report.,1,0,0,0,0,0,1,0,2,0,Plaintiff
+60,The homeowner sues the builder for structural defects.,The builder argues the damage was caused by natural calamities.,Building contract and damage photos.,1,1,1,1,0,1,1,0,3,1,Plaintiff
+61,The patient accuses the doctor of negligence during surgery.,The doctor claims all procedures were followed correctly.,Medical report and hospital records.,0,1,1,0,1,0,1,1,1,2,Defendant
+62,The student accuses the teacher of unfair grading.,The teacher insists grades were based on merit.,Exam scripts and grading policy.,0,0,1,0,0,1,1,0,2,-1,Plaintiff
+63,The patient accuses the doctor of negligence during surgery.,The doctor claims all procedures were followed correctly.,Medical report and hospital records.,1,0,1,0,0,1,0,1,2,0,Plaintiff
+64,The worker was not paid overtime for extra hours.,The company says overtime was compensated with leave.,Salary slips and attendance sheet.,0,0,0,0,1,1,1,0,0,-1,Plaintiff
+65,The driver claims the accident was caused by poor road conditions.,"The municipality denies responsibility, citing driver negligence.",Accident report and road maintenance log.,0,0,1,0,1,1,0,1,0,0,Neutral
+66,The author alleges plagiarism by another writer.,The accused writer denies copying any material.,Manuscript drafts and publication timestamps.,0,1,0,1,0,1,1,1,1,2,Defendant
+67,The tenant claims the landlord failed to return the deposit.,The landlord argues the deposit was used for damages.,Lease agreement and damage photos.,1,1,1,0,0,0,0,0,2,1,Plaintiff
+68,The customer alleges overcharging by the restaurant.,The restaurant says service charges were clearly mentioned.,Bill receipt and menu card.,1,0,1,1,1,1,0,1,1,1,Neutral
+69,The driver claims the accident was caused by poor road conditions.,"The municipality denies responsibility, citing driver negligence.",Accident report and road maintenance log.,1,1,1,0,0,1,0,0,2,0,Plaintiff
+70,The worker was not paid overtime for extra hours.,The company says overtime was compensated with leave.,Salary slips and attendance sheet.,1,0,0,1,0,1,1,1,2,1,Plaintiff
+71,The employee claims wrongful termination.,The company states the firing was due to poor performance.,Termination letter and performance reviews.,1,0,0,0,1,0,1,1,1,1,Neutral
+72,The customer alleges overcharging by the restaurant.,The restaurant says service charges were clearly mentioned.,Bill receipt and menu card.,1,1,1,1,1,0,1,1,2,3,Defendant
+73,The author alleges plagiarism by another writer.,The accused writer denies copying any material.,Manuscript drafts and publication timestamps.,0,1,1,1,0,1,0,1,1,2,Defendant
+74,The author alleges plagiarism by another writer.,The accused writer denies copying any material.,Manuscript drafts and publication timestamps.,0,0,1,0,1,0,0,0,0,0,Neutral
+75,The buyer complains the product was defective.,The seller claims the buyer misused it.,Purchase receipt and defect report.,0,0,1,1,0,1,1,0,2,0,Plaintiff
+76,The customer alleges overcharging by the restaurant.,The restaurant says service charges were clearly mentioned.,Bill receipt and menu card.,1,1,1,0,1,1,1,0,2,0,Plaintiff
+77,The author alleges plagiarism by another writer.,The accused writer denies copying any material.,Manuscript drafts and publication timestamps.,1,0,0,1,1,0,0,1,0,2,Defendant
+78,The author alleges plagiarism by another writer.,The accused writer denies copying any material.,Manuscript drafts and publication timestamps.,1,0,0,1,1,0,1,1,1,2,Defendant
+79,The tenant claims the landlord failed to return the deposit.,The landlord argues the deposit was used for damages.,Lease agreement and damage photos.,0,0,0,0,1,1,0,1,-1,0,Defendant
+80,The customer alleges overcharging by the restaurant.,The restaurant says service charges were clearly mentioned.,Bill receipt and menu card.,1,0,0,1,1,0,0,1,0,2,Defendant
+81,The student accuses the teacher of unfair grading.,The teacher insists grades were based on merit.,Exam scripts and grading policy.,1,1,1,0,1,1,0,0,1,0,Plaintiff
+82,The homeowner sues the builder for structural defects.,The builder argues the damage was caused by natural calamities.,Building contract and damage photos.,1,1,1,0,0,0,1,0,3,1,Plaintiff
+83,The driver claims the accident was caused by poor road conditions.,"The municipality denies responsibility, citing driver negligence.",Accident report and road maintenance log.,1,0,0,0,1,1,1,1,1,0,Plaintiff
+84,The homeowner sues the builder for structural defects.,The builder argues the damage was caused by natural calamities.,Building contract and damage photos.,0,1,0,1,1,1,1,1,0,2,Defendant
+85,The student accuses the teacher of unfair grading.,The teacher insists grades were based on merit.,Exam scripts and grading policy.,1,0,0,1,1,0,0,1,0,2,Defendant
+86,The customer alleges overcharging by the restaurant.,The restaurant says service charges were clearly mentioned.,Bill receipt and menu card.,0,1,0,0,1,1,0,0,-1,0,Defendant
+87,The worker was not paid overtime for extra hours.,The company says overtime was compensated with leave.,Salary slips and attendance sheet.,0,0,0,1,1,0,1,1,0,2,Defendant
+88,The tenant claims the landlord failed to return the deposit.,The landlord argues the deposit was used for damages.,Lease agreement and damage photos.,0,0,0,0,0,0,1,1,1,1,Neutral
+89,The worker was not paid overtime for extra hours.,The company says overtime was compensated with leave.,Salary slips and attendance sheet.,0,0,1,1,0,1,1,0,2,0,Plaintiff
+90,The customer alleges overcharging by the restaurant.,The restaurant says service charges were clearly mentioned.,Bill receipt and menu card.,0,0,1,1,0,0,0,0,1,1,Neutral
+91,The tenant claims the landlord failed to return the deposit.,The landlord argues the deposit was used for damages.,Lease agreement and damage photos.,1,1,1,0,1,1,0,0,1,0,Plaintiff
+92,The homeowner sues the builder for structural defects.,The builder argues the damage was caused by natural calamities.,Building contract and damage photos.,0,0,1,0,0,0,1,1,2,1,Plaintiff
+93,The tenant claims the landlord failed to return the deposit.,The landlord argues the deposit was used for damages.,Lease agreement and damage photos.,1,0,1,1,0,1,1,0,3,0,Plaintiff
+94,The patient accuses the doctor of negligence during surgery.,The doctor claims all procedures were followed correctly.,Medical report and hospital records.,1,0,0,0,1,0,1,1,1,1,Neutral
+95,The driver claims the accident was caused by poor road conditions.,"The municipality denies responsibility, citing driver negligence.",Accident report and road maintenance log.,1,1,1,1,0,0,1,0,3,2,Plaintiff
+96,The patient accuses the doctor of negligence during surgery.,The doctor claims all procedures were followed correctly.,Medical report and hospital records.,0,1,1,1,0,1,0,0,1,1,Neutral
+97,The driver claims the accident was caused by poor road conditions.,"The municipality denies responsibility, citing driver negligence.",Accident report and road maintenance log.,0,1,1,1,1,1,0,0,0,1,Defendant
+98,The author alleges plagiarism by another writer.,The accused writer denies copying any material.,Manuscript drafts and publication timestamps.,0,1,0,0,1,0,1,1,0,2,Defendant
+99,The patient accuses the doctor of negligence during surgery.,The doctor claims all procedures were followed correctly.,Medical report and hospital records.,0,1,1,0,1,0,0,0,0,1,Defendant
+100,The driver claims the accident was caused by poor road conditions.,"The municipality denies responsibility, citing driver negligence.",Accident report and road maintenance log.,0,1,1,0,0,0,0,1,1,2,Defendant
+101,The author alleges plagiarism by another writer.,The accused writer denies copying any material.,Manuscript drafts and publication timestamps.,0,1,1,0,1,0,0,0,0,1,Defendant
+102,The author alleges plagiarism by another writer.,The accused writer denies copying any material.,Manuscript drafts and publication timestamps.,0,1,0,0,1,1,0,1,-1,1,Defendant
+103,The customer alleges overcharging by the restaurant.,The restaurant says service charges were clearly mentioned.,Bill receipt and menu card.,1,1,1,1,1,0,1,0,2,2,Neutral
+104,The driver claims the accident was caused by poor road conditions.,"The municipality denies responsibility, citing driver negligence.",Accident report and road maintenance log.,0,1,1,1,1,0,0,1,0,3,Defendant
+105,The author alleges plagiarism by another writer.,The accused writer denies copying any material.,Manuscript drafts and publication timestamps.,0,1,1,1,1,1,0,0,0,1,Defendant
+106,The driver claims the accident was caused by poor road conditions.,"The municipality denies responsibility, citing driver negligence.",Accident report and road maintenance log.,0,0,1,0,0,1,0,0,1,-1,Plaintiff
+107,The worker was not paid overtime for extra hours.,The company says overtime was compensated with leave.,Salary slips and attendance sheet.,0,0,1,0,0,0,0,1,1,1,Neutral
+108,The worker was not paid overtime for extra hours.,The company says overtime was compensated with leave.,Salary slips and attendance sheet.,0,0,1,1,0,1,0,1,1,1,Neutral
+109,The driver claims the accident was caused by poor road conditions.,"The municipality denies responsibility, citing driver negligence.",Accident report and road maintenance log.,0,1,0,1,0,0,0,0,0,2,Defendant
+110,The tenant claims the landlord failed to return the deposit.,The landlord argues the deposit was used for damages.,Lease agreement and damage photos.,1,1,1,0,0,0,0,1,2,2,Neutral
+111,The customer alleges overcharging by the restaurant.,The restaurant says service charges were clearly mentioned.,Bill receipt and menu card.,1,0,1,1,0,0,1,0,3,1,Plaintiff
+112,The worker was not paid overtime for extra hours.,The company says overtime was compensated with leave.,Salary slips and attendance sheet.,0,1,0,1,1,1,1,1,0,2,Defendant
+113,The student accuses the teacher of unfair grading.,The teacher insists grades were based on merit.,Exam scripts and grading policy.,1,1,0,0,1,1,1,1,1,1,Neutral
+114,The author alleges plagiarism by another writer.,The accused writer denies copying any material.,Manuscript drafts and publication timestamps.,1,1,0,1,0,0,0,1,1,3,Defendant
+115,The author alleges plagiarism by another writer.,The accused writer denies copying any material.,Manuscript drafts and publication timestamps.,0,1,0,1,0,0,1,1,1,3,Defendant
+116,The patient accuses the doctor of negligence during surgery.,The doctor claims all procedures were followed correctly.,Medical report and hospital records.,0,0,0,1,1,1,0,0,-1,0,Defendant
+117,The student accuses the teacher of unfair grading.,The teacher insists grades were based on merit.,Exam scripts and grading policy.,1,0,0,0,0,1,0,1,1,0,Plaintiff
+118,The employee claims wrongful termination.,The company states the firing was due to poor performance.,Termination letter and performance reviews.,1,1,1,0,0,0,0,0,2,1,Plaintiff
+119,The student accuses the teacher of unfair grading.,The teacher insists grades were based on merit.,Exam scripts and grading policy.,0,1,0,1,1,1,0,0,-1,1,Defendant
+120,The tenant claims the landlord failed to return the deposit.,The landlord argues the deposit was used for damages.,Lease agreement and damage photos.,0,1,1,1,1,0,1,1,1,3,Defendant
+121,The tenant claims the landlord failed to return the deposit.,The landlord argues the deposit was used for damages.,Lease agreement and damage photos.,1,1,1,1,1,0,0,1,1,3,Defendant
+122,The homeowner sues the builder for structural defects.,The builder argues the damage was caused by natural calamities.,Building contract and damage photos.,0,0,0,1,0,0,1,0,1,1,Neutral
+123,The employee claims wrongful termination.,The company states the firing was due to poor performance.,Termination letter and performance reviews.,0,0,1,0,1,1,0,1,0,0,Neutral
+124,The tenant claims the landlord failed to return the deposit.,The landlord argues the deposit was used for damages.,Lease agreement and damage photos.,1,1,1,0,0,1,0,1,2,1,Plaintiff
+125,The customer alleges overcharging by the restaurant.,The restaurant says service charges were clearly mentioned.,Bill receipt and menu card.,1,1,0,0,0,1,1,1,2,1,Plaintiff
+126,The employee claims wrongful termination.,The company states the firing was due to poor performance.,Termination letter and performance reviews.,1,0,0,0,0,0,1,0,2,0,Plaintiff
+127,The student accuses the teacher of unfair grading.,The teacher insists grades were based on merit.,Exam scripts and grading policy.,0,1,0,1,1,0,1,0,0,2,Defendant
+128,The buyer complains the product was defective.,The seller claims the buyer misused it.,Purchase receipt and defect report.,1,0,1,0,0,1,1,1,3,0,Plaintiff
+129,The homeowner sues the builder for structural defects.,The builder argues the damage was caused by natural calamities.,Building contract and damage photos.,0,1,0,1,1,0,1,0,0,2,Defendant
+130,The patient accuses the doctor of negligence during surgery.,The doctor claims all procedures were followed correctly.,Medical report and hospital records.,1,0,1,1,0,1,1,0,3,0,Plaintiff
+131,The tenant claims the landlord failed to return the deposit.,The landlord argues the deposit was used for damages.,Lease agreement and damage photos.,0,1,1,1,0,0,0,0,1,2,Defendant
+132,The patient accuses the doctor of negligence during surgery.,The doctor claims all procedures were followed correctly.,Medical report and hospital records.,1,0,0,0,0,1,1,0,2,-1,Plaintiff
+133,The driver claims the accident was caused by poor road conditions.,"The municipality denies responsibility, citing driver negligence.",Accident report and road maintenance log.,1,0,1,0,0,1,0,1,2,0,Plaintiff
+134,The student accuses the teacher of unfair grading.,The teacher insists grades were based on merit.,Exam scripts and grading policy.,1,1,0,0,1,1,1,0,1,0,Plaintiff
+135,The employee claims wrongful termination.,The company states the firing was due to poor performance.,Termination letter and performance reviews.,0,1,1,1,1,0,0,1,0,3,Defendant
+136,The patient accuses the doctor of negligence during surgery.,The doctor claims all procedures were followed correctly.,Medical report and hospital records.,0,0,0,1,1,1,0,0,-1,0,Defendant
+137,The driver claims the accident was caused by poor road conditions.,"The municipality denies responsibility, citing driver negligence.",Accident report and road maintenance log.,1,1,0,0,1,0,1,0,1,1,Neutral
+138,The customer alleges overcharging by the restaurant.,The restaurant says service charges were clearly mentioned.,Bill receipt and menu card.,0,1,1,0,0,0,0,1,1,2,Defendant
+139,The tenant claims the landlord failed to return the deposit.,The landlord argues the deposit was used for damages.,Lease agreement and damage photos.,0,0,1,1,1,1,0,1,0,1,Defendant
+140,The buyer complains the product was defective.,The seller claims the buyer misused it.,Purchase receipt and defect report.,1,0,0,0,0,0,0,0,1,0,Plaintiff
+141,The driver claims the accident was caused by poor road conditions.,"The municipality denies responsibility, citing driver negligence.",Accident report and road maintenance log.,0,0,1,0,0,0,0,0,1,0,Plaintiff
+142,The worker was not paid overtime for extra hours.,The company says overtime was compensated with leave.,Salary slips and attendance sheet.,1,1,0,1,1,0,0,1,0,3,Defendant
+143,The tenant claims the landlord failed to return the deposit.,The landlord argues the deposit was used for damages.,Lease agreement and damage photos.,0,1,1,1,1,1,1,0,1,1,Neutral
+144,The driver claims the accident was caused by poor road conditions.,"The municipality denies responsibility, citing driver negligence.",Accident report and road maintenance log.,0,0,0,0,1,1,0,0,-1,-1,Neutral
+145,The buyer complains the product was defective.,The seller claims the buyer misused it.,Purchase receipt and defect report.,0,0,1,1,1,0,1,0,1,1,Neutral
+146,The patient accuses the doctor of negligence during surgery.,The doctor claims all procedures were followed correctly.,Medical report and hospital records.,0,0,0,0,0,0,1,1,1,1,Neutral
+147,The patient accuses the doctor of negligence during surgery.,The doctor claims all procedures were followed correctly.,Medical report and hospital records.,0,1,0,0,1,0,1,0,0,1,Defendant
+148,The homeowner sues the builder for structural defects.,The builder argues the damage was caused by natural calamities.,Building contract and damage photos.,1,1,1,1,1,0,1,1,2,3,Defendant
+149,The buyer complains the product was defective.,The seller claims the buyer misused it.,Purchase receipt and defect report.,0,0,1,1,1,0,0,1,0,2,Defendant
+150,The author alleges plagiarism by another writer.,The accused writer denies copying any material.,Manuscript drafts and publication timestamps.,1,1,1,0,1,0,0,1,1,2,Defendant

@@ -1,0 +1,102 @@
+[
+  {
+    "case_id": 1,
+    "plaintiff": "Plaintiff claims violation of Right to Equality under Article 14 due to discriminatory hiring practices.",
+    "defendant": "Defendant argues merit-based selection without discrimination.",
+    "evidence": "Employment records and candidate qualifications.",
+    "verdict": "Plaintiff",
+    "legal_basis": "Article 14 - Right to Equality",
+    "category": "Constitutional Law",
+    "article": "Article 14"
+  },
+  {
+    "case_id": 2,
+    "plaintiff": "Worker alleges violation of Right to Life under Article 21 due to unsafe working conditions.",
+    "defendant": "Company claims compliance with all safety regulations.",
+    "evidence": "Safety audit reports and accident records.",
+    "verdict": "Plaintiff",
+    "legal_basis": "Article 21 - Right to Life and Personal Liberty",
+    "category": "Constitutional Law",
+    "article": "Article 21"
+  },
+  {
+    "case_id": 3,
+    "plaintiff": "Citizen challenges detention without trial under Article 22.",
+    "defendant": "State argues national security concerns justified detention.",
+    "evidence": "Detention orders and legal notices.",
+    "verdict": "Defendant",
+    "legal_basis": "Article 22 - Protection against arrest and detention",
+    "category": "Constitutional Law",
+    "article": "Article 22"
+  },
+  {
+    "case_id": 4,
+    "plaintiff": "Plaintiff alleges defamation under Section 499 IPC.",
+    "defendant": "Defendant claims statements were truthful and in public interest.",
+    "evidence": "Published articles and witness testimonies.",
+    "verdict": "Defendant",
+    "legal_basis": "IPC Section 499 - Defamation",
+    "category": "Criminal Law",
+    "article": "IPC 499"
+  },
+  {
+    "case_id": 5,
+    "plaintiff": "Landlord files eviction suit under Transfer of Property Act.",
+    "defendant": "Tenant claims protected tenancy rights.",
+    "evidence": "Rent receipts and tenancy agreement.",
+    "verdict": "Plaintiff",
+    "legal_basis": "Transfer of Property Act",
+    "category": "Property Law",
+    "article": "Transfer of Property Act"
+  },
+  {
+    "case_id": 6,
+    "plaintiff": "Consumer alleges fraud under Section 420 IPC.",
+    "defendant": "Seller denies fraudulent intent and provides transaction records.",
+    "evidence": "Purchase receipts and communication logs.",
+    "verdict": "Plaintiff",
+    "legal_basis": "IPC Section 420 - Cheating",
+    "category": "Criminal Law",
+    "article": "IPC 420"
+  },
+  {
+    "case_id": 7,
+    "plaintiff": "Wife files for maintenance under Section 125 CrPC.",
+    "defendant": "Husband claims inability to pay due to unemployment.",
+    "evidence": "Income certificates and bank statements.",
+    "verdict": "Plaintiff",
+    "legal_basis": "CrPC Section 125 - Maintenance",
+    "category": "Family Law",
+    "article": "CrPC 125"
+  },
+  {
+    "case_id": 8,
+    "plaintiff": "Employee claims wrongful termination violating Article 19(1)(g).",
+    "defendant": "Employer argues termination for misconduct with proper procedure.",
+    "evidence": "Termination letter and disciplinary records.",
+    "verdict": "Defendant",
+    "legal_basis": "Article 19(1)(g) - Right to practice profession",
+    "category": "Constitutional Law",
+    "article": "Article 19(1)(g)"
+  },
+  {
+    "case_id": 9,
+    "plaintiff": "Plaintiff alleges breach of contract under Indian Contract Act.",
+    "defendant": "Defendant claims force majeure circumstances.",
+    "evidence": "Contract documents and correspondence.",
+    "verdict": "Neutral",
+    "legal_basis": "Indian Contract Act Section 56",
+    "category": "Contract Law",
+    "article": "Contract Act Section 56"
+  },
+  {
+    "case_id": 10,
+    "plaintiff": "Victim files case under Section 354 IPC for outraging modesty.",
+    "defendant": "Accused denies charges and provides alibi.",
+    "evidence": "Medical reports and eyewitness accounts.",
+    "verdict": "Plaintiff",
+    "legal_basis": "IPC Section 354 - Outraging modesty",
+    "category": "Criminal Law",
+    "article": "IPC 354"
+  }
+]
