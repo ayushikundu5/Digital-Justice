@@ -18,6 +18,60 @@ class _NewCaseScreenState extends State<NewCaseScreen> {
   final _evidenceController = TextEditingController();
   bool _isLoading = false;
   bool _backendError = false;
+  bool _checkingBackend = true;
+  String _backendStatus = 'Checking backend connection...';
+
+  @override
+  void initState() {
+    super.initState();
+    _checkBackendConnection();
+  }
+
+  Future<void> _checkBackendConnection() async {
+    setState(() {
+      _checkingBackend = true;
+      _backendStatus = 'Waking up backend server...';
+      _backendError = false;
+    });
+
+    try {
+      // First, try to wake up the backend
+      await ApiService.wakeUpBackend();
+      
+      // Wait a moment for it to start
+      await Future.delayed(const Duration(seconds: 2));
+      
+      // Check if backend is healthy
+      final isHealthy = await ApiService.checkBackendHealth(maxRetries: 3);
+      
+      if (mounted) {
+        setState(() {
+          _checkingBackend = false;
+          if (isHealthy) {
+            _backendStatus = 'Backend connected successfully!';
+            _backendError = false;
+            // Clear success message after 3 seconds
+            Future.delayed(const Duration(seconds: 3), () {
+              if (mounted) {
+                setState(() => _backendStatus = '');
+              }
+            });
+          } else {
+            _backendStatus = 'Backend connection failed. It may be starting up - please wait 30-60 seconds and try submitting.';
+            _backendError = true;
+          }
+        });
+      }
+    } catch (e) {
+      if (mounted) {
+        setState(() {
+          _checkingBackend = false;
+          _backendStatus = 'Could not reach backend. Please check your internet connection.';
+          _backendError = true;
+        });
+      }
+    }
+  }
 
   @override
   void dispose() {
@@ -36,6 +90,7 @@ class _NewCaseScreenState extends State<NewCaseScreen> {
     setState(() {
       _isLoading = true;
       _backendError = false;
+      _backendStatus = 'Submitting case to AI backend...';
     });
 
     try {
@@ -98,12 +153,16 @@ class _NewCaseScreenState extends State<NewCaseScreen> {
         Navigator.of(context).pushReplacementNamed('/cases/${caseData.id}');
       }
     } catch (e) {
-      setState(() => _backendError = true);
+      setState(() {
+        _backendError = true;
+        _backendStatus = e.toString().replaceFirst('Exception: ', '');
+      });
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
             content: Text('Failed to submit case: ${e.toString()}'),
             backgroundColor: Colors.red,
+            duration: const Duration(seconds: 5),
           ),
         );
       }
@@ -119,6 +178,13 @@ class _NewCaseScreenState extends State<NewCaseScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Create New Case'),
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.refresh),
+            onPressed: _checkingBackend ? null : _checkBackendConnection,
+            tooltip: 'Retry backend connection',
+          ),
+        ],
       ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(16),
@@ -156,20 +222,44 @@ class _NewCaseScreenState extends State<NewCaseScreen> {
               ),
               const SizedBox(height: 24),
 
-              if (_backendError)
+              // Backend status message
+              if (_backendStatus.isNotEmpty)
                 Card(
-                  color: Colors.red.shade50,
+                  color: _backendError 
+                      ? Colors.red.shade50 
+                      : _checkingBackend 
+                          ? Colors.blue.shade50 
+                          : Colors.green.shade50,
                   child: Padding(
                     padding: const EdgeInsets.all(12),
                     child: Row(
                       children: [
-                        Icon(Icons.error, color: Colors.red.shade700),
+                        if (_checkingBackend)
+                          SizedBox(
+                            width: 20,
+                            height: 20,
+                            child: CircularProgressIndicator(
+                              strokeWidth: 2,
+                              color: Colors.blue.shade700,
+                            ),
+                          )
+                        else
+                          Icon(
+                            _backendError ? Icons.error : Icons.check_circle,
+                            color: _backendError 
+                                ? Colors.red.shade700 
+                                : Colors.green.shade700,
+                          ),
                         const SizedBox(width: 12),
                         Expanded(
                           child: Text(
-                            'Cannot connect to backend server. Please check your internet connection.',
+                            _backendStatus,
                             style: TextStyle(
-                              color: Colors.red.shade700,
+                              color: _backendError 
+                                  ? Colors.red.shade700 
+                                  : _checkingBackend 
+                                      ? Colors.blue.shade700 
+                                      : Colors.green.shade700,
                               fontSize: 12,
                             ),
                           ),
@@ -178,7 +268,7 @@ class _NewCaseScreenState extends State<NewCaseScreen> {
                     ),
                   ),
                 ),
-              if (_backendError) const SizedBox(height: 16),
+              if (_backendStatus.isNotEmpty) const SizedBox(height: 16),
 
               Card(
                 child: Padding(

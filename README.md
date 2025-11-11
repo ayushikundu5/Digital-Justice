@@ -126,8 +126,19 @@ APK will be at: `build/app/outputs/flutter-apk/Digital-Justice.apk`
 ### Backend
 
 - **URL:** https://digital-justice-wss7.onrender.com
-- **Status:** ✅ Live
+- **Status:** ✅ **LIVE AND WORKING**
 - **Hosting:** Render.com (Free Tier)
+- **Last Verified:** Nov 9, 2025
+
+### Quick Test:
+
+```bash
+# Health check
+curl https://digital-justice-wss7.onrender.com/health
+
+# Get API info
+curl https://digital-justice-wss7.onrender.com/
+```
 
 ### API Endpoints
 
@@ -263,7 +274,18 @@ static const String baseUrl = 'https://digital-justice-wss7.onrender.com';
 
 ## 🚀 Deployment
 
-### Deploy Backend to Render
+### ✅ Backend Already Deployed!
+
+Your backend is **LIVE** at: `https://digital-justice-wss7.onrender.com`
+
+**Status:** Healthy and working perfectly!
+
+For deployment details, see:
+
+- `BACKEND_DEPLOYED_SUMMARY.md` - Current deployment status
+- `RENDER_DEPLOYMENT_STEPS.md` - How to redeploy or update
+
+### Deploy Backend to Render (For New Deployments)
 
 1. Push code to GitHub
 2. Connect repository to Render
@@ -285,6 +307,8 @@ See `Frontend/ai_court_app/APK_BUILD_INFO.md` for details.
 ## 📖 Documentation
 
 - **Backend Deployment:** `Backend/RENDER_DEPLOYMENT.md`
+- **Deployment Summary:** `BACKEND_DEPLOYED_SUMMARY.md`
+- **Step-by-Step Guide:** `RENDER_DEPLOYMENT_STEPS.md`
 - **AI Model Guide:** `Backend/AI_MODEL_WORKING.md`
 - **APK Build Guide:** `Frontend/ai_court_app/APK_BUILD_INFO.md`
 - **Flutter Connection:** `FLUTTER_BACKEND_CONNECTED.md`
@@ -329,7 +353,8 @@ For issues or questions:
 
 - Open an issue on GitHub
 - Check the documentation files
-- Review `Backend/RENDER_DEPLOYMENT.md` for deployment issues
+- Review `RENDER_DEPLOYMENT_STEPS.md` for deployment issues
+- Visit Render Dashboard: https://dashboard.render.com/
 
 ---
 
@@ -340,9 +365,20 @@ For issues or questions:
 - ✅ Initial release
 - ✅ AI verdict system working
 - ✅ Flutter app with full features
-- ✅ Cloud backend deployed
+- ✅ Cloud backend deployed on Render
 - ✅ APK ready for distribution
 - ✅ Complete documentation
+
+---
+
+## 🔗 Quick Links
+
+| Resource              | Link                                             |
+|-----------------------|--------------------------------------------------|
+| **Backend API**       | https://digital-justice-wss7.onrender.com        |
+| **GitHub Repository** | https://github.com/ayushikundu5/Digital-Justice  |
+| **Render Dashboard**  | https://dashboard.render.com/                    |
+| **Health Check**      | https://digital-justice-wss7.onrender.com/health |
 
 ---
 
