@@ -4,6 +4,7 @@ Optimized for production use without heavy ML dependencies
 """
 
 import re
+import random
 from collections import Counter
 
 # -------------------------------
